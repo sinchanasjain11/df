@@ -1,4 +1,5 @@
-
+PRACTICAL 4: SIMULATING FILE RECOVERY
+Objective: Write a Python program to recover simulated deleted text files from a directory by scanning the filesystem.
 import os
 import shutil
 import hashlib
@@ -118,3 +119,21 @@ def recover_deleted_files():
     print("Report saved as:", REPORT_FILE)
 if __name__ == "__main__":
     recover_deleted_files()
+
+
+
+notes.txt.deleted
+This is a simulated deleted file. Digital forensics practical.
+
+Evidence.txt.deleted
+Evidence ID: DF001
+This file is used for recovery testing.
+
+df
+│
+├── program4.py
+│
+├── Evidence_Source
+│   ├── notes.txt.deleted
+│   └── Evidence.txt.deleted
+│
