@@ -1,3 +1,7 @@
+PRACTICAL 5: IDENTIFY FILE TYPES USING MAGIC NUMBERS
+Develop a Python script that identifies file types using magic numbers (file signatures) instead of relying on file extensions.
+
+    
 import os
 
 MAGIC_NUMBERS = {
@@ -62,3 +66,9 @@ print("=" * 40)
 file_path = input("Enter the path of the file: ")
 
 identify_file_type(file_path)
+
+
+
+df
+├── program5.py
+└── sample.pdf
