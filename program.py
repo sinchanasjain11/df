@@ -1,3 +1,11 @@
+
+
+PRACTICAL 1- Simulating Digital Evidence Collection  
+Write a Python script to simulate collecting basic digital evidence from system logs and files (e.g., fetching system log files). 
+
+
+
+
 import os
 import shutil
 import hashlib
