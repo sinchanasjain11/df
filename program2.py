@@ -112,3 +112,15 @@ def main():
 
 
 main() 
+
+sample.txt
+thisis a sample filefor digital forensics metadata analysis
+
+
+df
+│
+├── program2.py       ← Program 2 code
+├── sample.txt        ← Test file
+
+pip install pypdf
+python program2.py
