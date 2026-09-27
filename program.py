@@ -23,7 +23,7 @@ def calculate_hash(file_path):
                 break
 
             sha256.update(data)
-
+-
     return sha256.hexdigest()
 
 
@@ -72,3 +72,24 @@ with open(report_file, "w", newline="") as csvfile:
 print("\nDigital evidence collection completed.")
 print("Evidence saved in:", destination_folder)
 print("Report saved as:", report_file)
+
+TEXT DOCUMENT  
+system_log.txt  
+2026-08-21 09:00:01 - User login successful  
+2026-08-21 09:15:22 - File accessed  
+2026-08-21 09:30:45 - USB device connected  
+2026-08-21 10:05:12 - User logout  
+  
+Suspicious_file.txt  
+This is a sample file for digital forensic investigation.  
+
+DF_Program_1
+│
+├── program1.py          
+│
+├── Evidence_Source
+│   ├── system_log.txt
+│   └── Suspicious_file.txt
+│
+└── Collected_Evidence
+                
