@@ -1,3 +1,8 @@
+PRACTICAL 2 — Parsing Metadata from Files  
+Develop a script to extract and display metadata (author, creation date, file type) from image, PDF, or text files.  
+
+
+
 import os
 import mimetypes
 from datetime import datetime
